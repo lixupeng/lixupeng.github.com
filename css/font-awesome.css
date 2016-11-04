@@ -175,8 +175,7 @@
 .fa-envelope-o:before {
   content: "\f003";
 }
-.fa-heart:before {
-  content: "\f004";
+.fa-heart a {
   -webkit-transition: all 150ms ease-in-out;
   -moz-transition: all 150ms ease-in-out;
   -ms-transition: all 150ms ease-in-out;
@@ -184,7 +183,10 @@
   transition: all 150ms ease-in-out;
   text-decoration: none !important;
 }
-.fa-heart:hover {
+.fa-heart:before {
+  content: "\f004";
+}
+.fa-heart a:hover {
   color:#FF7F50;
 }
 
