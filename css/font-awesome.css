@@ -177,10 +177,17 @@
 }
 .fa-heart:before {
   content: "\f004";
+  -webkit-transition: all 150ms ease-in-out;
+  -moz-transition: all 150ms ease-in-out;
+  -ms-transition: all 150ms ease-in-out;
+  -o-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  text-decoration: none !important;
 }
 .fa-heart:hover {
   color:#FF7F50;
 }
+
 .fa-star:before {
   content: "\f005";
 }
